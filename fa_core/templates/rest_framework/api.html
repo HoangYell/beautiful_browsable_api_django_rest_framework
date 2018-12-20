@@ -1,0 +1,18 @@
+{% extends "rest_framework/base.html" %}
+{% load static %}
+
+{% block bootstrap_theme %}
+        <link rel="stylesheet" href="https://bootswatch.com/3/flatly/bootstrap.min.css" type="text/css">
+        <link rel="stylesheet" href="{% static 'css/main.css' %}" type="text/css">
+{% endblock %}
+{% block bootstrap_navbar_variant %}{% endblock %}
+
+
+
+
+{% block branding %}
+    <a class="navbar-brand" rel="nofollow" href="#">
+        Yell Ca Map
+    </a>
+{% endblock %}
+

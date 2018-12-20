@@ -1,0 +1,171 @@
+:root {
+    --main-color: #195f91;
+    --highlight-color: #18bc9c;
+    --highlight-color-dark-1: #16a78a;
+    --decoration-color: #e74c3c;
+}
+
+.breadcrumb>li+li:before {
+    color: var(--highlight-color);
+}
+
+.navbar-brand {
+    font-family: monospace;
+    color: var(--main-color);
+}
+
+.wrapper > .navbar.navbar-static-top {
+    margin: auto;
+}
+
+.nav.navbar-nav.pull-right > .dropdown > a {
+    color: var(--main-color);
+}
+
+.dropdown > .dropdown-toggle {
+    border-radius: 4px;
+}
+
+.container > .breadcrumb {
+    background: #ffffff;
+}
+
+#content > .content-main > .page-header {
+    margin-top: auto;
+}
+
+#content > .content-main > .page-header > h1 {
+    color: var(--main-color);
+}
+
+.prettyprint > .meta.nocode > .lit {
+    color: var(--decoration-color) !important;
+}
+
+.prettyprint > .meta.nocode > b {
+    color: var(--main-color) !important;
+}
+
+.prettyprint > .str {
+    color: var(--main-color) !important;
+}
+
+.prettyprint > a > .str {
+    color: var(--main-color) !important;
+}
+
+.prettyprint > .pln {
+    color: var(--highlight-color);
+}
+
+.prettyprint > b > .pln {
+    color: var(--highlight-color);
+}
+
+.prettyprint > .lit {
+    color: var(--highlight-color) !important;
+}
+
+.prettyprint > .pun {
+    color: var(--highlight-color) !important;
+}
+
+.dropdown-menu {
+    left: auto;
+    right: 0;
+    padding: unset;
+}
+
+.dropdown-menu > li > a {
+    color: var(--main-color);
+}
+
+.dropdown-menu > li > a:hover {
+    background: var(--highlight-color);
+}
+
+.dropdown-menu > li > a:focus {
+    background: var(--highlight-color);
+}
+
+select > option:hover {
+    color: white;
+    background: var(--main-color);
+}
+
+select > option:first-child:hover {
+    border-radius: 4px 4px 0px 0px;
+}
+
+select > option:last-child:hover {
+    border-radius: 0px 0px 4px 4px;
+}
+
+select > option:checked {
+    color: white;
+    background: var(--main-color) linear-gradient(0deg, var(--main-color) 0%, var(--main-color) 100%);
+}
+
+select > option:first-child:checked {
+    border-radius: 4px 4px 0px 0px;
+}
+
+select > option:last-child:checked {
+    border-radius: 0px 0px 4px 4px;
+}
+
+.btn-primary {
+    background-color: var(--highlight-color);
+    border-color: var(--highlight-color);
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: var(--highlight-color-dark-1);
+    border-color: var(--highlight-color-dark-1);
+    font-weight: bold;
+}
+
+.btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    background-color: var(--highlight-color-dark-1) !important;
+    border-color: var(--highlight-color-dark-1) !important;
+}
+
+.btn-danger {
+    font-weight: bold;
+}
+
+.form-group > label {
+    color: var(--main-color)
+}
+
+.nav.nav-tabs.form-switcher > li > a {
+    font-weight: bold;
+}
+
+.nav.nav-tabs.form-switcher > .active > a {
+    color: var(--main-color);
+    font-weight: bold;
+}
+
+.nav.nav-tabs.form-switcher > .active > a {
+    font-weight: bold;
+}
+
+.tooltip-inner {
+    background: white;
+    font-weight: bold;
+    color: var(--main-color);
+}
+
+/*Swagger*/
+
+.swagger-ui .topbar {
+    padding: 8px 0;
+    background-color: var(--highlight-color);
+}
+
+.swagger-ui .topbar .download-url-wrapper .download-url-button {
+    background-color: white;
+    color: var(--highlight-color);
+}

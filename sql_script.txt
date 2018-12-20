@@ -1,0 +1,5 @@
+ALTER TABLE `fa`.`app_story_story`
+CHANGE COLUMN `title` `title` VARCHAR(100) CHARACTER SET 'utf8mb4' NOT NULL ,
+CHANGE COLUMN `text` `text` LONGTEXT CHARACTER SET 'utf8mb4' NOT NULL ,
+CHANGE COLUMN `feeling` `feeling` LONGTEXT CHARACTER SET 'utf8mb4' NOT NULL ,
+CHANGE COLUMN `solution` `solution` LONGTEXT CHARACTER SET 'utf8mb4' NOT NULL ;

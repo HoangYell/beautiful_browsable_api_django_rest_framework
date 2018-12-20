@@ -1,0 +1,15 @@
+{% extends "admin/base.html" %}
+{% load static %}
+{% block title %}{{ title }} | {{ site_title|default:_('YellCaMap') }}{% endblock %}
+
+{% block branding %}
+<h1 id="site-name"><a href="{% url 'admin:index' %}">{{ site_header|default:_('YellCaMap Administration') }}</a></h1>
+{% endblock %}
+
+{% block nav-global %}{% endblock %}
+
+{#{% block stylesheet %}https://bootswatch.com/3/flatly/bootstrap.min.css{% endblock %}#}
+{#{% block extrastyle %}#}
+{#    {{ block.super }}#}
+{#    <link rel="stylesheet" href="{% static 'css/main.css' %}" type="text/css">#}
+{#{% endblock %}#}

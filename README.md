@@ -4,7 +4,7 @@ The Beautiful Browsable API - DRF & Nice Documenting REST APIs - Swagger
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install.
 
 ```bash
 pip3 install -r requirements.txt

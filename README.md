@@ -36,7 +36,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Take a look at our wiki page for a detailed [installation guide][0].
 
 
-[0]: https://github.com/ngohoangyell/to-do-task-mvc-python/wiki/
+[0]: https://github.com/ngohoangyell/
 [1]: https://www.python.org/
 [2]: https://www.djangoproject.com/
 [3]: https://www.django-rest-framework.org/

@@ -16,14 +16,6 @@ pip3 install -r requirements.txt
 python3 manage.py runserver localhost:7001
 ```
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
-
-
 ## Technology Stack
 * [Python 3][1]
 * [Django][2]
@@ -55,3 +47,12 @@ Take a look at our wiki page for a detailed [installation guide][0].
 ![alt yell](https://raw.githubusercontent.com/ngohoangyell/beautiful_browsable_api_django_rest_framework/master/readme_docs/8.png)
 ![alt yell](https://raw.githubusercontent.com/ngohoangyell/beautiful_browsable_api_django_rest_framework/master/readme_docs/9.png)
 ![alt yell](https://raw.githubusercontent.com/ngohoangyell/beautiful_browsable_api_django_rest_framework/master/readme_docs/10.png)
+
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+

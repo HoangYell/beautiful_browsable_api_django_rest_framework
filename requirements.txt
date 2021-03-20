@@ -7,7 +7,7 @@ django-cors-headers==2.4.0
 django-environ==0.4.5
 django-filter==2.0.0
 django-rest-swagger==2.2.0
-djangorestframework==3.9.1
+djangorestframework==3.11.2
 ed25519==1.4
 idna==2.8
 itypes==1.1.0
